@@ -1,0 +1,90 @@
+{
+	Configurações da fonte JetBrains Mono
+	itor.fontSize": 18,
+	itor.lineHeight": 24,
+	itor.fontFamily": "JetBrains Mono",
+	itor.fontLigatures": true,
+	umenta a font do terminal
+	rminal.integrated.fontSize": 14,
+	Define o tema do VSCode
+	rkbench.colorTheme": "Dracula",
+	Define o tema dos icones da menu lateral
+	rkbench.iconTheme": "material-icon-theme",
+	rkbench.startupEditor": "newUntitledFile",
+	//Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+	"itor.rulers": [80, 120],
+	"itor.formatOnSave": true,
+	//Aplica alteracoes no codigo com base no ESlint
+	"itor.codeActionsOnSave": {
+		"rce.fixAll.eslint": true
+	
+	//Valida o codigo com base no tipo de linguagem utilizada
+	"lint.validate": [
+		"ascript",
+		"ascriptreact",
+		"escript",
+		"escriptreact"
+	
+	"lint.format.enable": true,
+	"les.associations": {
+		"quelizerc": "javascript",
+		"ylelintrc": "json",
+		"ettierrc": "json"
+	
+	"plorer.compactFolders": false,
+	"itor.renderLineHighlight": "gutter",
+	"rkbench.editor.labelFormat": "short",
+	"tensions.ignoreRecommendations": true,
+	"vascript.updateImportsOnFileMove.enabled": "never",
+	"pescript.updateImportsOnFileMove.enabled": "never",
+	"eadcrumbs.enabled": true,
+	"itor.parameterHints.enabled": false,
+	"plorer.confirmDragAndDrop": false,
+	"plorer.confirmDelete": false,
+	"vascript.suggest.autoImports": true,
+	"pescript.suggest.autoImports": true,
+	"rminal.integrated.shell.osx": "/bin/zsh",
+	"efine GitBash como terminal padrao
+	"terminal.integrated.shell.windows": "C:\\Users\\dcruz\\AppData\\Local\\hyper\\Hyper.exe",
+	"terminal.integrated.shell.windows": "C:\\Users\\dcruz\\AppData\\Local\\hyper\\Hyper.exe",
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+	t.ignoreWindowsGit27Warning": true,
+	risma]": {
+		tor.defaultFormatter": "Prisma.prisma"
+	
+	terial-icon-theme.folders.associations": {
+		ra": "app",
+		erfaces": "class",
+		emas": "class",
+		eorm": "database",
+		p": "container",
+		ositories": "mappings",
+		ities": "class",
+		Case": "controller",
+		int-config": "shared",
+		": "batch",
+		ms": "other",
+		rations": "tools",
+		s": "typescript",
+		es": "mock",
+		ules": "components",
+		lementations": "core",
+		az": "template",
+		os": "generator",
+		t-xml-parser": "resource",
+		arios": "delta"
+	
+
+	terial-icon-theme.files.associations": {
+		config.json": "database",
+		onfig.json": "tune"
+	
+	itor.formatOnPaste": true,
+	itor.formatOnType": true,
+	itor.defaultFormatter": "esbenp.prettier-vscode",
+	ndow.zoomLevel": -1,
+	rminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	rminal.integrated.shellArgs.windows": ["--escriptreditor.defaultFormatter": "ms-vsliveshare.vsliveshare"
+	
+		
+	
