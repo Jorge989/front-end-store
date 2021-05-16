@@ -60,7 +60,7 @@ export const Container = styled.div`
     display: flex;
 
     flex-direction: column;
-    width: 1160px;
+    width: 1550px;
   }
   @media screen and (max-width: 768px) {
     background-color: #fbfbfb;

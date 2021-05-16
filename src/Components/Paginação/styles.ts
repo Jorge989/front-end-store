@@ -40,7 +40,7 @@ export const Container = styled.div`
     gap: 40px;
     font-size: 60px;
     margin-left: 650px;
-    margin-top: 250px;
+    margin-top: 340px;
     svg {
       color: #28a3aa;
       width: 40px;

@@ -4,6 +4,11 @@ export const Container = styled.div`
   width: 100%;
 
   display: flex;
+  @media (max-width: 1024px) {
+    width: 1500px;
+    height: 1350px;
+    display: flex;
+  }
   @media (max-width: 769px) {
     width: 100%;
     height: 1350px;
@@ -11,7 +16,7 @@ export const Container = styled.div`
   }
   @media (max-width: 576px) {
     width: 100%;
-    height: 6600px;
+    height: 6700px;
     display: flex;
     flex-direction: column;
   }
@@ -85,6 +90,81 @@ export const Sidebar2 = styled.aside`
     }
     li {
       padding: 10px 0;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    background-color: #fff;
+    border: 1px solid #000;
+    flex: 1;
+    margin: 20px;
+    width: 900px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .titulos {
+      h1 {
+        color: #cb0d1f;
+        padding-left: 20px;
+        padding-top: 10px;
+      }
+      h3 {
+        color: #5d8f8a;
+        padding-left: 20px;
+        padding-top: 10px;
+      }
+    }
+    nav {
+      padding-left: 40px;
+      padding-top: 0px;
+      display: flex;
+      width: 250px;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 100%;
+      .cores {
+        padding-left: 0px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        h3 {
+          color: #5d8f8a;
+          margin-left: -20px;
+        }
+        .cores2 {
+          padding-top: 5px;
+          display: flex;
+          flex-direction: row;
+          gap: 5px;
+          width: 100%;
+          .red {
+            width: 50px;
+            height: 20px;
+            margin-left: -20px;
+            background-color: #cc0d1d;
+          }
+          .orange {
+            width: 50px;
+            height: 20px;
+            background-color: #f26324;
+          }
+          .blue {
+            width: 50px;
+            height: 20px;
+            background-color: #28a3aa;
+          }
+        }
+        .tipo {
+          padding-top: 20px;
+        }
+      }
+      li {
+        padding: 10px 0;
+      }
     }
   }
   @media (max-width: 769px) {
@@ -404,7 +484,7 @@ export const Info = styled.div`
   }
   @media (max-width: 576px) {
     margin-top: 100px;
-    width: 1200px;
+    width: 1180px;
 
     h2 {
       color: #cb0d1f;
@@ -448,13 +528,13 @@ export const Info = styled.div`
         color: #5d8f8a;
         font-size: 60px;
         margin-top: 10px;
-        margin-right: 60px;
+        margin-right: 80px;
         font-weight: bold;
       }
       select {
         width: 55%;
         height: 100px;
-        font-size: 35px;
+        font-size: 50px;
         margin-bottom: 2px;
         border: 1px solid #000;
         border-radius: 3px;

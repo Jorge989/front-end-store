@@ -41,8 +41,40 @@ export const Container = styled.div`
       img {
         border: 1px solid grey;
         width: 200px;
+        border-radius: 3px;
         height: 250px;
       }
+    }
+  }
+  .tenis1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 220px;
+    height: 270px;
+    .riscado {
+      display: flex;
+      justify-content: space-between;
+
+      gap: 15px;
+    }
+    .preço-extra {
+      text-decoration: line-through;
+      font-weight: 400;
+      color: #000;
+      text-decoration: line;
+    }
+    span {
+      display: flex;
+      font-weight: bold;
+      color: #cb0d1f;
+    }
+    img {
+      border: 1px solid grey;
+      width: 200px;
+      border-radius: 3px;
+      height: 250px;
     }
   }
   button {
@@ -69,6 +101,37 @@ export const Container = styled.div`
       margin-top: 20px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      .tenis1 {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+
+        width: 220px;
+        height: 270px;
+        .riscado {
+          display: flex;
+          justify-content: space-between;
+
+          gap: 15px;
+        }
+        .preço-extra {
+          text-decoration: line-through;
+          font-weight: 400;
+          color: #000;
+          text-decoration: line;
+        }
+        span {
+          display: flex;
+          font-weight: bold;
+          color: #cb0d1f;
+        }
+        img {
+          border: 1px solid grey;
+          width: 200px;
+          border-radius: 3px;
+          height: 250px;
+        }
+      }
     }
     button {
       background-color: #7fbdb8;
@@ -91,7 +154,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     height: 100%;
-    height: 4000px;
+    height: 400px;
     width: 1100px;
     .tenis-container1 {
       margin-top: 20px;

@@ -16,7 +16,7 @@ export const Container = styled.div`
     text-decoration: none;
   }
   @media screen and (max-width: 1024px) {
-    width: 1500px;
+    width: 1550px;
   }
   @media screen and (max-width: 769px) {
     display: flex;
